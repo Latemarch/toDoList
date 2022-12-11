@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(158, 147, 145);
+}
+.test {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+}
+.test #clock {
+	display: flex;
+	justify-content: left;
+	margin-right: 10px;
+	border: 2px solid black;
+	width: 44px;
+}
+
+.test div:last-child {
+	display: flex;
+	justify-content: center;
+	border: 2px solid black;
+}
+.test span {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	border: 2px solid black;
+}
+
+.hidden {
+	display: none;
+}
+#login-form {
+	display: flex;
+	margin-top: 100px;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid black;
+}
+#welcomeMsg {
+	display: flex;
+	border: 2px solid black;
+	justify-content: center;
+	position: relative;
+	top: -40px;
+}
