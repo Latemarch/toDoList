@@ -12,7 +12,7 @@ function deleteToDo(event) {
 }
 function saveToDo() {
 	localStorage.setItem("toDos", JSON.stringify(toDos));
-	// toDoInput.value = "";
+	toDoInput.value = "";
 }
 
 function paintToDo(newToDo) {
