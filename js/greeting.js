@@ -4,9 +4,11 @@ const loginForm = document.querySelector("#login-form");
 const greeting = document.querySelector("#welcomeMsg");
 
 let savedName = localStorage.getItem("username");
+
 function paintGreeting(name) {
 	loginInput.classList.add("hidden");
 	loginBtn.classList.add("hidden");
+	greeting.classList.remove("hidden");
 	greeting.innerText = `Hello ${name}`;
 }
 function onLoginSubmit(event) {

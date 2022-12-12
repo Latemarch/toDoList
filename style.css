@@ -4,20 +4,17 @@ body {
 .test {
 	display: flex;
 	justify-content: space-between;
-	border: 2px solid black;
 }
 .test #clock {
 	display: flex;
 	justify-content: left;
 	margin-right: 10px;
-	border: 2px solid black;
-	width: 44px;
+	width: 50px;
 }
 
 .test div:last-child {
 	display: flex;
 	justify-content: center;
-	border: 2px solid black;
 }
 .test span {
 	position: absolute;
@@ -26,7 +23,6 @@ body {
 	font-size: 20px;
 	left: 50%;
 	transform: translate(-50%, 0);
-	border: 2px solid black;
 }
 
 .hidden {
@@ -35,14 +31,25 @@ body {
 #login-form {
 	display: flex;
 	margin-top: 100px;
+	height: 100px;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid black;
 }
 #welcomeMsg {
-	display: flex;
-	border: 2px solid black;
 	justify-content: center;
 	position: relative;
-	top: -40px;
+}
+#todo-form {
+	display: flex;
+	position: relative;
+	justify-content: center;
+}
+#todo-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#todo-list li {
+	display: flex;
 }
